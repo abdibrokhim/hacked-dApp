@@ -1,0 +1,23 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Ghost"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Orange"
+    }
+  ],
+  "description": "The scariest creature in the world. He is a hairy creature with a big mouth and opened eyes. He is a circle and has a blur background.",
+  "image": "ipfs://QmTBFxWq4JwnS2PznJoY1ruds9xZcPwRWYh2nkrbjscSCQ",
+  "name": "Scary"
+}

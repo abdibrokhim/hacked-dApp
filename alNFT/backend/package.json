@@ -1,0 +1,47 @@
+{
+	"name": "alNFT",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"build": "npx hardhat compile",
+		"deploy-testnet": "npx hardhat run ./scripts/deploy.js --network ETH_GOERLI",
+		"deploy": "npx hardhat run ./scripts/deploy.js --network ETH_MAINNET",
+		"node": "npx hardhat node",
+		"deploy-local": "npx hardhat run ./scripts/deploy.js --network localhost"
+	},
+	"dependencies": {
+		"@alch/alchemy-web3": "^1.4.7",
+		"@openzeppelin/contracts": "^4.8.1",
+		"@pinata/sdk": "^2.1.0",
+		"dotenv": "^16.0.3",
+		"express-rate-limit": "^6.7.0",
+		"fs": "^0.0.1-security",
+		"openai": "^3.2.1",
+		"swagger-jsdoc": "^6.2.8",
+		"swagger-ui-express": "^4.6.2"
+	},
+	"devDependencies": {
+		"@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
+		"@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+		"@nomicfoundation/hardhat-toolbox": "^1.0.2",
+		"@nomiclabs/hardhat-ethers": "^2.2.2",
+		"@nomiclabs/hardhat-etherscan": "^3.1.6",
+		"@typechain/ethers-v5": "^10.2.0",
+		"@typechain/hardhat": "^6.1.5",
+		"@types/chai": "^4.3.4",
+		"@types/express": "^4.17.17",
+		"@types/mocha": "^9.1.1",
+		"@types/node-fetch": "^2.6.2",
+		"chai": "^4.3.7",
+		"ethers": "^5.7.2",
+		"express": "^4.18.2",
+		"hardhat": "^2.10.1",
+		"hardhat-gas-reporter": "^1.0.9",
+		"node-fetch": "^3.3.0",
+		"nodemon": "^2.0.21",
+		"solidity-coverage": "^0.7.22",
+		"ts-node": "^10.9.1",
+		"typechain": "^8.1.1",
+		"typescript": "^4.9.5"
+	}
+}
